@@ -1,0 +1,92 @@
+body{
+    background-image: url('watch.avif');
+    background-size: cover;
+    
+}
+
+h1{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    border: solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    background-color: #0E0E0E;
+}
+
+#outercontainer{
+    width: 550px;
+    height: 250px;
+    border: solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #242424;
+}
+
+/* Inner container contains both the display and controls */
+#innercontainer{
+    width: 520px;
+    height: 220px;
+    border: solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:rgb(207, 203, 203);
+
+}
+
+
+#display{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+#controls button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#startbtn{
+    background-color:green;
+    color: white;
+}
+
+#startbtn:hover{
+    box-shadow: 0 0 3px 3px grey;
+}
+
+#stopbtn{
+    background-color: red;
+    color: white;
+}
+
+#stopbtn:hover{
+    box-shadow: 0 0 3px 3px grey;
+}
+
+
+#resetbtn{
+    background-color: #1ECDFF;
+    color: white;
+}
+
+#resetbtn:hover{
+    box-shadow: 0 0 3px 3px grey;
+}
